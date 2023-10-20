@@ -1,0 +1,141 @@
+
+table.a {
+    width: 100%;
+}
+
+img.b {
+    width: 180px;
+    
+}
+/* image class for the swallowtail and morpho pictures */
+img.c {
+    width: 280px;
+    padding-left: 0px;
+    border: 5px solid #922376;
+  
+    
+}
+/* class for the conservatory picture */
+img.d {
+    width: 500px;
+    border: 2px solid #da73c5;
+}
+
+.c {
+    font-family: sans-serif;
+    font-size: 20pt;
+    font-style:italic;
+    color: #980974;
+
+    padding-left: 1ex;
+    
+
+
+}
+/* The left side of the page is .butterfly, and the right side is .mission for clarity */
+/* I added padding to make it spaced to the right like the example */
+
+.butterfly{
+    /* I made the box sizing border-box (default)  and used float:left to have
+    both butterfly and mission next to eachother. there is probably a easier way but it works*/
+    float:left;
+    width: 40%;
+    background-image: linear-gradient(to bottom, #e084cc, #e9c0e1); 
+    line-height:1.5;
+    padding-top: 10px;
+    padding-left: 20px;
+    box-sizing:border-box;
+
+}
+/* right side of page */
+.mission{
+    
+    float:left;
+    width: 60%;
+    background-image: linear-gradient(to bottom, #eeeeae,#ffffff);  
+    line-height:1.5;
+    padding-top: 10px;
+    padding-left: 100px;
+    box-sizing:border-box;
+}
+/*contact us box*/
+.contact-box{
+    
+    text-align: center;
+    float:left;
+    width:200px;
+    height:150px;
+    background-color: #d4d4f7;
+    border-radius: 20px; 
+   
+}
+/* I called the footer .bottom, made it the background image */
+.bottom{
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 12px;
+    line-height: 1;
+    background-image: url("images/footer.jpg");
+    background-size:cover;
+    height: 100px;
+    clear:both;
+    
+}
+/* .m - .m6  for each type of text such as headers */
+.m {
+    width:100%;
+   
+    border-collapse: collapse;
+}
+
+.m1{
+    width:3%;
+    color: #F2EE83;
+    background-color: #28336B;
+    text-align: center;
+    
+    font-family: sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+}  
+.m2{
+    width: 3%;
+    color: white;
+    background-color: #6d7cc7ef;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+}  
+
+/* .m3 is for the headers such as "BUTTERFLY SHOWCASE" */
+.m3{
+    
+    letter-spacing: 5px;
+    font-size: 18pt;
+    font-family: "Freemono", monospace;
+    color: #000000;
+    
+}   
+/* .m4 is used for most of the main text */
+.m4{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/* .m5 is used for the over-lined looking text/headers such as "BLUE MORPHO" and the names above the pictures */
+.m5{
+    
+    text-decoration:overline;
+    font-size: 14pt;
+    
+}
+/* .m6 is for the yellow text at the footer */
+.m6{
+    color: yellow;
+
+}
+
